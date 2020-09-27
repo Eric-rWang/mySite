@@ -44,7 +44,7 @@ class about extends Component {
                 </div>
                 <div className="title">
                     <div className="profile">
-                        <img className="display" src={profilePic} style={{width: "270px", height: "270px", borderRadius: 400/2}}/>
+                        <img className="display" src={profilePic} style={{width: "250px", height: "250px", borderRadius: 400/2}}/>
                     </div>
                     <div className="intro">
                         <FadeInSection>

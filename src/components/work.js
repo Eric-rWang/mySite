@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Parallax } from 'react-parallax';
+import Cards from './cards';
 import Social from './social';
 import FadeIn from 'react-fade-in';
 import background from "./pictures/background2.jpg";
@@ -42,7 +43,7 @@ class work extends Component {
                 </div>
                 <div className="title">
                     <FadeInSection>
-                        <p className="pagetitle" ></p>
+                        <Cards />
                     </FadeInSection>
                 </div>
                 <div className="footer">

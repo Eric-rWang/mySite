@@ -1,0 +1,159 @@
+.navBar {
+    background-color: white;
+    height: 50px;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    height: 70px;
+}
+
+.navText {
+    color: #595959 !important;
+    font-family: "Open Sans", sans-serif, Tahoma;
+    font-size: 14px;
+    margin-right: 3rem;
+}
+
+.navTextWork {
+    color: #595959 !important;
+    font-family: "Open Sans", sans-serif, Tahoma;
+    font-size: 14px;
+}
+
+.navBorder {
+    margin-right: 5%;
+}
+
+.imgPic {
+    margin-top: 70px;
+    height: auto;
+}
+
+.welcomeText {
+    background: rgba(201, 201, 201, 0.5);
+    left: 50%;
+    top: 50%;
+    color: white;
+    font-size: 130%;
+    font-family: 'Crimson Text', serif;
+    position: absolute;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.downArrow {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin-top: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    position: relative;
+    z-index: -1;
+    height: auto;
+    width: 100%;
+}
+
+.intro {
+    font-family: 'B612', sans-serif;
+}
+
+.fade-in-section {
+    opacity: 0;
+    transform: translateY(20vh);
+    visibility: hidden;
+    transition: opacity 1200ms ease-out, transform 800ms ease-out,
+      visibility 1200ms ease-out;
+    will-change: opacity, transform, visibility;
+}
+
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
+
+.image { opacity: 0; transition: opacity 0.3s; }
+.image-loaded { opacity: 1; }
+
+.pagetitle {
+    text-align: center;
+    color: #595959;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 65%;
+    font-size: 15px;
+}
+
+.navBarAll {
+    position: relative;
+}
+
+img.display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    height: 30px;
+    padding-top: 10px;
+    background-image: linear-gradient(white, #DBDBDB);
+    padding-bottom: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.youtube {
+    color: #eb3223;
+}
+
+a.instagram {
+    color: #C13584;
+}
+
+a.linkedin {
+    color: #0e76a8;
+}
+
+a.github {
+    color: #211F1F;
+}
+
+#nameFC {
+    position: relative;
+    float: left;
+    margin-left: 5%;
+    margin-top: 15px;
+    font-family: 'B612', sans-serif;
+    font-size: 25px;
+    color: #595959;
+}
+
+#navOptions {
+    position: relative;
+    float: right;
+    margin-top: 20px;
+}

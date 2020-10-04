@@ -50,6 +50,7 @@
 }
 
 .title {
+    display: flex;
     margin-top: auto;
     margin-bottom: 30px;
     background-color: white;
@@ -128,25 +129,26 @@ a.social:hover {
 }
 
 a.youtube {
-    color: #eb3223;
+    color: #7C7C7C;
 }
 
 a.instagram {
-    color: #C13584;
+    color: #7C7C7C;
 }
 
 a.linkedin {
-    color: #0e76a8;
+    color: #7C7C7C;
 }
 
 a.github {
-    color: #211F1F;
+    color: #7C7C7C;
 }
 
 .cards {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .card {
@@ -164,10 +166,24 @@ a.github {
 
 .cardTitle {
     font-family: 'Crimson Text', serif;
+    color: #595959;
 }
 
 .cardInfo {
     font-family: "Open Sans", sans-serif, Tahoma;
+    color: #595959;
+    height: 120px;
+}
+
+.buttoncard {
+    background-color: #e7e7e7;
+    border: none;
+    color: #595959;
+    padding: 12px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 #nameFC {

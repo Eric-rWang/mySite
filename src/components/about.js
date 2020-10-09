@@ -42,7 +42,7 @@ class about extends Component {
                 <div className="downArrow">
                     <img className="downArrowPic" src={downarrow} style={{ height: 50, width: 50 }}/>
                 </div>
-                <div className="title">
+                <div className="titleAbout">
                     <div className="profile">
                         <img className="display" src={profilePic} style={{width: "250px", height: "250px", borderRadius: 400/2}}/>
                     </div>

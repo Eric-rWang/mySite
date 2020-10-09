@@ -59,8 +59,33 @@
     height: auto;
 }
 
+.titleAbout {
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    z-index: -1;
+    height: auto;
+}
+
 .intro {
     font-family: 'B612', sans-serif;
+}
+
+.pagetitle {
+    text-align: center;
+    color: #595959;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    position: relative;
+    font-family: "Open Sans", sans-serif, Tahoma;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    font-size: 15px;
 }
 
 .fade-in-section {
@@ -80,21 +105,6 @@
 
 .image { opacity: 0; transition: opacity 0.3s; }
 .image-loaded { opacity: 1; }
-
-.pagetitle {
-    text-align: center;
-    color: #595959;
-    padding-top: 30px;
-    padding-bottom: 50px;
-    position: relative;
-    font-family: "Open Sans", sans-serif, Tahoma;
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    width: 65%;
-    font-size: 15px;
-}
 
 .navBarAll {
     position: relative;

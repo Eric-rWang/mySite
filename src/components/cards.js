@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-import { Parallax } from 'react-parallax';
+import Modal from 'react-modal';
 import food from './pictures/burger.jpg';
 import code from './pictures/coding.jpg';
 import picture from './pictures/picture.jpg';
@@ -20,6 +20,12 @@ export default function Cards() {
                         compiled a list of my go to spots. Follow me as I eat my way through Austin!
                     </p>
                     <Button className="buttoncard">Foodie</Button>{' '}
+                    <Modal isOpen={true}>
+                        <h2>Test</h2>
+                        <p>
+                            body
+                        </p>
+                    </Modal>
                 </div>
             </div>
             <div className="card">

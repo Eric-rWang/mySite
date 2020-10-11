@@ -88,6 +88,11 @@
     font-size: 15px;
 }
 
+.exitbutton {
+    width: 18px;
+    height: 20px;
+}
+
 .fade-in-section {
     opacity: 0;
     transform: translateY(20vh);
@@ -158,6 +163,12 @@ a.github {
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+    .cards {
+        flex-direction: column;
+    }
 }
 
 .card {

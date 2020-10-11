@@ -4,6 +4,7 @@ import Modal from 'react-modal';
 import food from './pictures/burger.jpg';
 import code from './pictures/coding.jpg';
 import picture from './pictures/picture.jpg';
+import exit from './pictures/exitimage.png';
 
 Modal.setAppElement('#root')
 
@@ -36,13 +37,13 @@ export default function Cards() {
                                 }
                             }
                         }>
+                        <div className="exit">
+                            <Button><img src={ exit } className="exitbutton" alt="exit image" onClick={() => setModalIsOpen1(false)}/></Button>
+                        </div>
                         <h2>Test 1</h2>
                         <p>
                             body
                         </p>
-                        <div>
-                            <Button onClick={() => setModalIsOpen1(false)}>Close</Button>
-                        </div>
                     </Modal>
                 </div>
             </div>
@@ -69,13 +70,13 @@ export default function Cards() {
                                 }
                             }
                         }>
+                        <div className="exit">
+                            <Button><img src={ exit } className="exitbutton" alt="exit image" onClick={() => setModalIsOpen2(false)}/></Button>
+                        </div>
                         <h2>Test 2</h2>
                         <p>
                             body
                         </p>
-                        <div>
-                            <Button onClick={() => setModalIsOpen2(false)}>Close</Button>
-                        </div>
                     </Modal>
                 </div>
             </div>
@@ -102,13 +103,13 @@ export default function Cards() {
                                 }
                             }
                         }>
+                        <div className="exit">
+                            <Button><img src={ exit } className="exitbutton" alt="exit image" onClick={() => setModalIsOpen3(false)}/></Button>
+                        </div>
                         <h2>Test 3</h2>
                         <p>
                             body
                         </p>
-                        <div>
-                            <Button onClick={() => setModalIsOpen3(false)}>Close</Button>
-                        </div>
                     </Modal>
                 </div>
             </div>

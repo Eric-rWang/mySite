@@ -6,6 +6,7 @@ import downarrow from "./pictures/downarrow.png";
 import project1Image from "./pictures/projects/project1.jpg";
 import project2Image from "./pictures/projects/project2.jpg";
 import project3Image from "./pictures/projects/project3.jpg";
+import project4Image from "./pictures/projects/project4.jpg";
 
 function FadeInSection(props) {
     const [isVisible, setVisible] = React.useState(false);
@@ -61,6 +62,12 @@ class Coding extends Component {
                 description: "Built a tool using CodeBERT to detect and fix order-dependent flaky tests in Python code. This project leverages machine learning to identify flaky tests, suggest fixes, and improve the stability of test suites, ensuring more reliable testing processes. Using pre-trained and fine-tuned LLMS for automatic OD flaky test detection and repair.",
                 image: project3Image,
                 link: "https://github.com/Eric-rWang/are_you_OD_Flaky"
+            },
+            {
+                title: "TrackMate",
+                description: "This application bridges the gap between virtual simulation and real-world performance tracking. Our app lets users design routes using real-world roads via Apple Maps, create personalized tracks, and monitor their performance through detailed timing and split analysis. Whether you're a driver, cyclist, or runner, our app provides insights to help you improve.",
+                image: project4Image,
+                link: "https://github.com/Eric-rWang/joyRide"
             }
         ];
         

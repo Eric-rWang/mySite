@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/mySite/static/css/main.b0e035fb.chunk.css",
+    "main.js": "/mySite/static/js/main.ca144f60.chunk.js",
+    "main.js.map": "/mySite/static/js/main.ca144f60.chunk.js.map",
+    "runtime-main.js": "/mySite/static/js/runtime-main.e5b54dcb.js",
+    "runtime-main.js.map": "/mySite/static/js/runtime-main.e5b54dcb.js.map",
+    "static/js/2.597054ec.chunk.js": "/mySite/static/js/2.597054ec.chunk.js",
+    "static/js/2.597054ec.chunk.js.map": "/mySite/static/js/2.597054ec.chunk.js.map",
+    "index.html": "/mySite/index.html",
+    "precache-manifest.98b06d30114d8e3e0db448a019ed4f03.js": "/mySite/precache-manifest.98b06d30114d8e3e0db448a019ed4f03.js",
+    "service-worker.js": "/mySite/service-worker.js",
+    "static/css/main.b0e035fb.chunk.css.map": "/mySite/static/css/main.b0e035fb.chunk.css.map",
+    "static/js/2.597054ec.chunk.js.LICENSE.txt": "/mySite/static/js/2.597054ec.chunk.js.LICENSE.txt",
+    "static/media/Japan2023.mp4": "/mySite/static/media/Japan2023.b770c67d.mp4",
+    "static/media/background.mp4": "/mySite/static/media/background.2118938e.mp4",
+    "static/media/bluebird.jpg": "/mySite/static/media/bluebird.5078b165.jpg",
+    "static/media/burger.jpg": "/mySite/static/media/burger.3e0e435e.jpg",
+    "static/media/coding.jpg": "/mySite/static/media/coding.e69d83e8.jpg",
+    "static/media/cooking_background.mp4": "/mySite/static/media/cooking_background.31e956a7.mp4",
+    "static/media/eem.jpg": "/mySite/static/media/eem.d85c4b3d.jpg",
+    "static/media/fooooood.mp4": "/mySite/static/media/fooooood.fae0fe02.mp4",
+    "static/media/headshotnew.png": "/mySite/static/media/headshotnew.d9c3308e.png",
+    "static/media/kochi.jpg": "/mySite/static/media/kochi.552e5e2b.jpg",
+    "static/media/lee.jpg": "/mySite/static/media/lee.c3cef6e7.jpg",
+    "static/media/loro.jpg": "/mySite/static/media/loro.49362107.jpg",
+    "static/media/nongs.jpg": "/mySite/static/media/nongs.dfc26ba2.jpg",
+    "static/media/phateatery.jpg": "/mySite/static/media/phateatery.37ed2b95.jpg",
+    "static/media/phooregon.jpg": "/mySite/static/media/phooregon.f865ac17.jpg",
+    "static/media/photography.JPG": "/mySite/static/media/photography.bb0f442f.JPG",
+    "static/media/project1.jpg": "/mySite/static/media/project1.0f45ba4e.jpg",
+    "static/media/project2.jpg": "/mySite/static/media/project2.62aaea4e.jpg",
+    "static/media/project3.jpg": "/mySite/static/media/project3.1b3ecb58.jpg",
+    "static/media/semma.jpg": "/mySite/static/media/semma.25bea9af.jpg",
+    "static/media/typing.mp4": "/mySite/static/media/typing.6bc19c3e.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e5b54dcb.js",
+    "static/js/2.597054ec.chunk.js",
+    "static/css/main.b0e035fb.chunk.css",
+    "static/js/main.ca144f60.chunk.js"
+  ]
+}

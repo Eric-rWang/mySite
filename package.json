@@ -1,6 +1,6 @@
 {
   "name": "ericwang",
-  "homepage": "https://Eric-rWang.github.io/react-gh-pages",
+  "homepage": "https://Eric-rWang.github.io/mySite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,6 +29,8 @@
     "redux": "^4.0.5"
   },
   "scripts": {
+    "predeploy": "export NODE_OPTIONS=--openssl-legacy-provider && npm run build",
+    "deploy": "mySite -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

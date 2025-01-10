@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import { Parallax } from 'react-parallax';
 import Cards from './cards';
 import Social from './social';
 import FadeIn from 'react-fade-in';
-import background from "./pictures/background2.jpg";
+import backgroundVideo from "./pictures/cooking_background.mp4";
 import downarrow from "./pictures/downarrow.png";
 
 function FadeInSection(props) {
@@ -31,16 +30,21 @@ class work extends Component {
             <div className="aboutPage">
                 <div className="imgPic">
                     <FadeIn>
-                        <Parallax bgImage={ background } strength={500}>
-                            <div style={{ height: 500 }}>
-                                <div className="welcomeText" >what i like to do</div>
-                            </div>
-                        </Parallax>
+                        {/* Video Background */}
+                        <div className="videoBackground2">
+                            <video autoPlay loop muted playsInline className="backgroundVideo">
+                                <source src={backgroundVideo} type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+                            <div className="welcomeText">My Hobbies</div>
+                        </div>
                     </FadeIn>
                 </div>
+                <br/><br/><br/><br/>
                 <div className="downArrow">
                     <img className="downArrowPic" src={downarrow} style={{ height: 50, width: 50 }}/>
                 </div>
+                <br/>
                 <div className="title">
                     <FadeInSection>
                         <Cards />
